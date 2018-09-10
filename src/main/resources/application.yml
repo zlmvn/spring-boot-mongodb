@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      host: 192.168.220.131
+      port: 27017
+      username: admin
+      database: lztest
+      password: qr1234
+logging:
+  config: logback-roncoo.xml
+server:
+  port: 8082
+
+
+
+
+
